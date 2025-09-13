@@ -85,7 +85,12 @@ function InfiniteCarousel() {
 
 export default function Home() {
   return (
-    <section className="w-full h-screen bg-black relative">
+    <section className="w-full h-screen  relative">
+      <nav className="absolute font-bebas top-0 left-0 w-full flex justify-between items-center p-4  bg-opacity-70 backdrop-blur-md z-10">
+        <h1 className="text-xl font-bold p-4">Tariq</h1>
+        <h1 className="text-xl font-bold p-4">Infinite Carousel</h1>
+
+      </nav>
       <Canvas >
         <InfiniteCarousel />
       </Canvas>
